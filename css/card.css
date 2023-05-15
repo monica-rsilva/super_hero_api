@@ -1,0 +1,73 @@
+.Card {
+    width: 28.8rem;
+    padding: 1.8rem 2.2rem;
+  
+    background: linear-gradient(180deg, #29323c 0%, #0e0f10 100%);
+    border-radius: 1.6rem;
+  }
+  
+  .Card h3 {
+    font-family: 'Bangers';
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .Card img {
+    width: 24rem;
+    height: 20.2rem;
+    object-fit: cover;
+  
+    margin-block: 1.6rem;
+  
+    border-radius: 0 0 0 6rem;
+  }
+  
+  .Card ul {
+    width: 100%;
+  
+    display: grid;
+    gap: 0.8rem;
+  }
+  
+  .Card ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding-inline: 1rem;
+    overflow: hidden;
+  
+    background-color: #d9d9d9;
+    border-radius: 0.8rem;
+    height: 2.6rem;
+  
+    font-family: 'Inter';
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #000000;
+  
+    position: relative;
+  }
+  
+  .Card ul li span, 
+  .Card ul li p {
+    position: relative;
+    z-index: 9999;
+  }
+  
+  .Card ul li::after {
+    content: "";
+  
+    width: var(--width);
+    height: 100%;
+  
+    background-color: var(--color);
+    border-radius: .8rem;
+  
+    position: absolute;
+    left: 0;
+  }  

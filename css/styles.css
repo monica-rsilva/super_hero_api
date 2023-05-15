@@ -1,0 +1,48 @@
+@import './card.css';
+
+:root {
+    --primary-color: #ffe600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    background: url(../assets/background.png);
+    background-size: 100vh;
+    color: #fff;
+}
+
+header {
+    margin-block: 1rem 0rem;
+    padding-inline: 4rem;
+}
+
+main {
+    padding-inline: 4.4rem;
+}
+
+footer {
+    margin-top: auto;
+    height: 2rem;
+    border-top: 0.2rem solid #fff;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.color{
+    background-color: cadetblue;
+}
+
+.gallery-btn > * {
+    pointer-events: none;
+  }
